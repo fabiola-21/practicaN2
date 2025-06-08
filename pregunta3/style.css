@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0e0618;
+    
+}
+header{
+    padding: 1rem 2rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #1c1c1d;
+    border-radius: 10px;
+
+}
+.logo{
+
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: orange;
+}
+.btn-getstarted{
+    background-color: orange;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+.btn{
+    background-color: #251d2e;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px 1rem;
+}
+.container{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+
+
+}
+.hero{
+    flex: 1;
+    padding-right: 2rem;
+
+}
+.hero h1{
+    font-size: 70px;
+}
+.hero p{
+    font-size: 15px;
+}
+
+.hero-img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.hero-img img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+.link{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.stats{
+    background-color: rgb(56, 55, 55);
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.stat h1{
+    font-size:2.rem ;
+    color: orange;
+    margin-bottom: 0.2rem;
+    font-weight: 700;
+
+}
+.stat h2{
+    font-size:1rem ;
+}
+.stat img{
+    background-color: orange;
+    border-radius: 11px;
+}

@@ -1,0 +1,112 @@
+body {
+    background-image: url(img/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+}
+header{
+    
+    background-color: rgb(235, 235, 245);
+    padding: 1rem 2rem;
+    color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0563c7;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin:0;
+    padding: 0;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(29, 5, 95);
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #2608aa;
+}
+.btn-getstarted button{
+    background-color: #0056b3;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btg-getstarted button:hover{
+    background-color: red;
+}
+.container{
+    text-align: center;
+    padding: 2rem;
+    
+    max-width: 800px;
+}
+.hero{
+    font-size: 2rem;
+    color:#2c4964;
+    
+}
+.hero h1{
+    text-align:left;
+    font-size: 2rem;
+    color: rgb(29, 10, 204);
+}
+.hero p{
+    text-align: left;
+    font-size: 1rem;
+    color: #555;
+}
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    padding: 2rem;
+
+}
+.uno{
+    width: 250px;
+    margin: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 3.5px;
+}
+.card {
+    background-color: rgb(36, 68, 248);
+    color: white;
+}
+.card h2{
+    margin-top: 0;
+}
+.learn{
+    background-color: rgb(26, 4, 85);
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    color: white; 
+    border-radius: 20px;
+    cursor: pointer;
+}
+.blue{
+    background-color: #fcfdfc;
+    border: 1px solid #ddd;
+    color: #333;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
